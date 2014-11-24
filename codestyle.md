@@ -12,7 +12,7 @@
      *   Copyright 2013-2014 CloudAtlas, Chengdu, China. All rights reserved.
      *
      *   Author: 0xC000005
-     *   Email: hui.xie@outlook.com
+     *   Email:  fle4y@outlook.com
      *   Url: https://github.com/0xC000005
      *
      * This program is free software: you can redistribute it and/or modify
@@ -52,17 +52,17 @@
 
 ##包名
 * 包名必须是全部小写的，最好用一个单词表示，尽量不要以复数结尾。
-* 包名必须以 org.cloudatlas.galaxy 开头
-* 接口或者抽象类的多种实现，推荐以 support, spi ， 等命名
+* 包名必须以 `org.cloudatlas.galaxy` 开头
+* 接口或者抽象类的多种实现，推荐以 `support`, `spi` ， 等命名
 
 ##类名
-* 类名必须首字母大写，驼峰命名法： 如 MessageInfo，MathUtils
+* 类名必须首字母大写，驼峰命名法： 如 `MessageInfo`，`MathUtils`
 * 类名尽量不要缩写，如果缩写，必须为特别常用的缩写
 * 接口的命名不要以 I 开头
-* 抽象类推荐以 Abstract 开头
-* 接口的默认实现推荐以 Default 开头或者 Impl 结尾
-* 每个 Class 都需要标注 @auther, @since
-* 每个 Class 都应该有简短的注释
+* 抽象类推荐以 `Abstract` 开头
+* 接口的默认实现推荐以 `Default` 开头或者 `Impl` 结尾
+* 每个 `Class` 都需要标注 `@auther`, `@since`
+* 每个 `Class` 都应该有简短的注释
 
 ##Imports
 * `Imports` 间不要有空行
@@ -110,9 +110,9 @@
 * 被 `catch` 住的 `Exception`，应该被打印出来 `log.error(e)`
 
 ##单元测试
-* 单元测试框架用 JUnit
-* 单元测试覆盖率工具用 Jacoco
-* Mock 框架使用 Mockito
+* 单元测试框架用 `JUnit`
+* 单元测试覆盖率工具用 `Jacoco`
+* Mock 框架使用 `Mockito`
 * 尽可能为每个方法提供单元测试
 * 覆盖率应该不低于 80%
 
